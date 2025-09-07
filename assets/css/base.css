@@ -1,0 +1,41 @@
+:root {
+  --font-family: Raleway, sans-serif;
+  --font-size: 16px;
+  --bg1: #fbfbfb;
+  --bg2: #fff;
+  --bg3: #f2f2fe;
+  --text1: #777;
+  --bg4: #ff589e;
+  --bg5: #8261ee;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-family);
+  color: var(--text1);
+  font-size: var(--font-size);
+}
+a {
+  text-decoration: none;
+  color: var(--text1);
+  font-size: 20px;
+  display: block;
+}
+.header a:hover {
+  color: var(--bg4) !important;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+.main-button {
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: var(--bg4);
+  color: var(--bg1);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 30px;
+}
